@@ -1,4 +1,7 @@
 package w1;
+
+// 백준 문제 링크 https://www.acmicpc.net/problem/10172
+
 /*
 아래 예제와 같이 개를 출력하시오.
 
