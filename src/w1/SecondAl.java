@@ -13,9 +13,8 @@ public class SecondAl {
         // 출력하기 위해 Scanner 이용
         Scanner sc = new Scanner(System.in);
         // 두 정수 A, B
-        int a, b;
-        a = sc.nextInt();
-        b = sc.nextInt();
-        System.out.println(a - b);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        System.out.println(A - B);
     }
 }
