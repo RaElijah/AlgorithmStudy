@@ -1,8 +1,8 @@
 package w2;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.util.Scanner;
+
+// 백준 문제 링크: https://www.acmicpc.net/problem/1330
 
 /*
 두 정수 A와 B가 주어졌을 때, A와 B를 비교하는 프로그램을 작성하시오.
@@ -19,9 +19,11 @@ A와 B가 같은 경우에는 '=='를 출력한다.
  */
 public class FirstAl {
     public static void main(String[] args) {
+        // BufferedReader 공부중
         Scanner scanner = new Scanner(System.in);
         int A = scanner.nextInt();
         int B = scanner.nextInt();
+        // 조건문 작성
         if (A > B) {
             System.out.println(">");
         } else if (A < B){
