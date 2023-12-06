@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class SecondAl {
     public static void main(String[] args) {
-        // BufferedReader 아직 공부중
+        // 입력 위해 Scanner 사용
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int sum = 0;

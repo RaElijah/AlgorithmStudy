@@ -19,7 +19,7 @@ A와 B가 같은 경우에는 '=='를 출력한다.
  */
 public class FirstAl {
     public static void main(String[] args) {
-        // BufferedReader 공부중
+        // 입력 위해 Scanner 사용
         Scanner scanner = new Scanner(System.in);
         int A = scanner.nextInt();
         int B = scanner.nextInt();
