@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 public class FourthAl {
     public static void main(String[] args) {
-
+        // 입력 받기 위해 Scanner 사용
         Scanner scanner = new Scanner(System.in);
         int score = scanner.nextInt();
         if (score >= 90 && score <= 100) {
@@ -25,6 +25,7 @@ public class FourthAl {
             System.out.println("C");
         } else if (score >= 60 && score < 70) {
             System.out.println("D");
+            // 예외 처리
         } else if (score > 100){
             System.out.println("error");
         } else {
