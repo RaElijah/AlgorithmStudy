@@ -37,22 +37,6 @@ public class ThirdAl {
         int n = Integer.parseInt(bufferedReader.readLine());
         char[] star = new char[2 * n - 1];
 
-        for(int j = 0; j < n; j++) {
-            for(int i = n - 1; i < n; i++) {
-                star[n - 1 - j] = '*';
-                star[n - 1 + j] = '*';
-            }
-            for(int i = 0; i <star.length; i++) System.out.print(star[i]);
-            System.out.print("\n");
-        }
-
-        for(int j = n; j > 1; j--) {
-            for(int i = n - 1; i < n; i++) {
-                star[n - j] = ' ';
-                star[n + j - 2] = ' ';
-            }
-            for(int i = 0; i <star.length; i++) System.out.print(star[i]);
-            System.out.print("\n");
         }
 
     }
