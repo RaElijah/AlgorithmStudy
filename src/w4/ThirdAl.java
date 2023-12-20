@@ -36,9 +36,5 @@ public class ThirdAl {
                 new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(bufferedReader.readLine());
         char[] star = new char[2 * n - 1];
-
-        }
-
     }
-
 }
