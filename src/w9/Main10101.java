@@ -37,5 +37,4 @@ public class Main10101 {
 
         } else System.out.println("Error");
     }
-    
 }
